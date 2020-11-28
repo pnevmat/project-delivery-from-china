@@ -1,0 +1,62 @@
+.header-section {
+    width: 100%;
+    max-width: 375px;
+    padding: 7px 16px;
+}
+
+.mobile-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.descktop-header-container {
+    @media screen and (max-width: 375px) {
+        display: none;
+        pointer-events: none;
+    }
+}
+
+.user-icon {
+    width: 100%;
+    max-width: 29px;
+    max-height: 29px;
+    fill: #333333;
+}
+
+.mobile-form {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 253px;
+    height: 40px;
+    border: 1px solid #FF8A00;
+    border-radius: 2px;
+    text-align: right;
+}
+
+.mobile-input {
+    width: 100%;
+    height: 100%;
+    max-width: 229px;
+    max-height: 40px;
+    padding-left: 5px;
+    border: none;
+}
+
+.magnifying-glass-icon {
+    position: absolute;
+    top: 25%;
+    left: 2%;
+    width: 100%;
+    max-width: 17px;
+    max-height: 17px;
+    fill:  #FF8A00;
+}
+
+.menu-icon {
+    width: 100%;
+    max-width: 20px;
+    max-height: 19px;
+}
+

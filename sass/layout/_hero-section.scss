@@ -1,0 +1,70 @@
+.hero-container {
+    padding-right: 9px;
+    padding-left: 9px;
+}
+
+.hero-header {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.arrow-left-icon {
+    width: 6px;
+    height: 15px;
+    fill: #FF8A00;
+    margin-right: 5px;
+}
+
+.hero-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.features-container {
+    display: inline-block;
+    width: 100%;
+    max-width: 356px;
+    text-align: center;
+}
+
+.features-card {
+    display: inline-block;
+    width: 100%;
+    max-width: 81px;
+    padding: 5px 5px;
+    border: 1px solid #FF8A00;
+    background: rgba(0, 0, 0, 0.22);
+    border-radius: 2px;
+    box-shadow: 0px 2.31545px 4.6309px rgba(0, 0, 0, 0.1);
+}
+
+.features-card-icon {
+    width: 100%;
+    max-width: 32px;
+    max-height: 32px;
+}
+
+.features-card-title {
+    font-weight: 500;
+    font-size: 6.98739px;
+    line-height: 8px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.features-card-text {
+    font-weight: 500;
+    font-size: 6.98739px;
+    line-height: 8px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.brand-img {
+    display: inline-block;
+}

@@ -1,94 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart trek</title>
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
-    <header>
-        <img src="./img/user.svg" alt="" srcset="">
-        <img src="./img/logo.jpg" alt="" srcset="./img/logo@2x.jpg 2x, ./img/logo@3x.jpg 3x">
-        <div>
-            <ul>
-                <li>Главная</li>
-                <li>Услуги</li>
-                <li>Каталог</li>
-                <li>О компании</li>
-                <li>Контакты</li>
-                <div>
+    <header class="section header-section">
+        <div class="mobile-header-container">
+            <svg class="user-icon">
+                <use href="./img/symbol-defs.svg#user"></use>
+            </svg>
+            <form class="mobile-form" action="">
+                <svg class="magnifying-glass-icon">
+                    <use href="./img/symbol-defs.svg#magnifying-glass"></use>
+                </svg>
+                <input class="mobile-input" type="text" placeholder="Трекинг"></input>
+            </form>
+            <button class="menu-button" type="button">
+                <svg class="menu-icon"><use href="./img/symbol-defs.svg#mobile-menu"></use></svg>
+            </button>
+        </div>
+        <div class="descktop-header-container">
+            <img class="header-logo" src="./img/logo.jpg" alt="" srcset="./img/logo@2x.jpg 2x, ./img/logo@3x.jpg 3x">
+            <ul class="nav-list">
+                <li class="nav-item">Главная</li>
+                <li class="nav-item">Услуги</li>
+                <li class="nav-item">Каталог</li>
+                <li class="nav-item">О компании</li>
+                <li class="nav-item">Контакты</li>
+                <li class="mobile-nav-item">
                     <form action="">
-                        <img src="./img/magnifying-glass.svg" alt="">
+                        <svg class="magnifying-glass-icon">
+                            <use href="./img/symbol-defs.svg#magnifying-glass"></use>
+                        </svg>
                         <input type="text" placeholder="Трекинг"></input>
                     </form>
-                    <a href="tel:+380663938888">+38 (066)39 38 888</a>
-                    <div>
+                    <a class="nav-item" href="tel:+380663938888">+38 (066)39 38 888</a>
+                    <div class="nav-item">
                         <a href="tel:+380663938888">+38 (066)39 38 888</a>
                         <a href="tel:+380663938888">+38 (066)39 38 888</a>
                     </div>
-                    <div>
+                    <div class="nav-item">
                         <a href="https://www.telegram.org">
                             <svg>
-                                <use href=""></use>
+                                <use href="./img/symbol-defs.svg#telegram"></use>
                             </svg>
                         </a>
                         <a href="https://www.viber.com">
                             <svg>
-                                <use href=""></use>
+                                <use href="./img/symbol-defs.svg#viber"></use>
                             </svg>
                         </a>
                     </div>
-                    <div>
+                    <div class="nav-item">
                         <button type="button">Рассчитать стоимость</button>
                         <button type="button">Личный кабинет</button>
                         <!-- <button type="button">Заказать обратный звонок</button> -->
                     </div>
-                </div>
+                </li>
             </ul>
         </div>
     </header>
     <main>
-        <hero>
-            <div>
-                <svg>
-                    <use href=""></use>
-                </svg>
-                <h1>Доставка грузов из Китая</h1>
+        <hero class="section">
+            <div class="hero-container">
+                <h1 class="hero-header">Доставка грузов из Китая</h1>
                 <ul>
-                    <li>Помощь с выкупом груза</li>
-                    <li>Проверка и переупаковка</li>
-                    <li>Страховка и доставка</li>
-                    <li>Таможеное оформление и выдача в Украине</li>
-                    <div>
-                        <h2>Быстрый расчёт стоимости</h2>
-                        <svg>
-                            <use href=""></use>
-                        </svg>
-                        <svg>
-                            <use href=""></use>
-                        </svg>
-                        <svg>
-                            <use href=""></use>
-                        </svg>
-                        <svg>
-                            <use href=""></use>
-                        </svg>
-                        <form action="">
-                            <input type="text" placeholder="Ваш телефон">
-                            <input type="text" placeholder="Комментарий">
-                            <button type="submit">Отправить</button>
-                            <button>Забрать груз из Китая</button>
-                        </form>
-                        <p>Выкуп с торговых площадок:</p>
-                        <img src="./img/hero-tb1dip.jpg" alt="">
-                        <img src="./img/hero-psikn.jpg" alt="">
-                        <img src="./img/hero-taobao-logo.jpg" alt="">
-                        <img src="./img/hero-alixblog.jpg" alt="">
-                    </div>
+                    <li class="hero-text"><svg class="arrow-left-icon"><use href="./img/symbol-defs.svg#arrow-left"></use></svg>Помощь с выкупом груза</li>
+                    <li class="hero-text"><svg class="arrow-left-icon"><use href="./img/symbol-defs.svg#arrow-left"></use></svg>Проверка и переупаковка</li>
+                    <li class="hero-text"><svg class="arrow-left-icon"><use href="./img/symbol-defs.svg#arrow-left"></use></svg>Страховка и доставка</li>
+                    <li class="hero-text"><svg class="arrow-left-icon"><use href="./img/symbol-defs.svg#arrow-left"></use></svg>Таможеное оформление и выдача в Украине</li>
                 </ul>
+                <div>
+                    <h2 class="hero-text">Быстрый расчёт стоимости</h2>
+                    <div class="features-container">
+                        <div class="features-card">
+                            <svg class="features-card-icon"><use href="./img/symbol-defs.svg#ship"></use></svg>
+                            <p class="features-card-title">Море</p>
+                            <p class="features-card-text">45-60 дней,от 1.5$/кг (с растаможкой)</p>
+                        </div>
+                        <div class="features-card">
+                            <svg class="features-card-icon"><use href="./img/symbol-defs.svg#airplane"></use></svg>
+                            <p class="features-card-title">Авиа</p>
+                            <p class="features-card-text">10-16 раб.дней, от 11.5$/кг (с растаможкой)</p>
+                        </div>
+                        <div class="features-card">
+                            <svg class="features-card-icon"><use href="./img/symbol-defs.svg#stack"></use></svg>
+                            <p class="features-card-title">Забрать груз у поставщика</p>
+                            <p class="features-card-text">45-60 дней, от1.5$/кг</p>
+                        </div>
+                        <div class="features-card">
+                            <svg class="features-card-icon"><use href="./img/symbol-defs.svg#notebook"></use></svg>
+                            <p class="features-card-title">Догруз (Фрахтование)</p>
+                            <p class="features-card-text">45-60 дней, от 1.5$/кг</p>
+                        </div>
+                    </div>
+                    <form action="">
+                        <input type="text" placeholder="Ваш телефон">
+                        <input type="text" placeholder="Комментарий">
+                        <button type="submit">Отправить</button>
+                        <button>Забрать груз из Китая</button>
+                    </form>
+                    <p>Выкуп с торговых площадок:</p>
+                    <img class="brand-img" src="./img/hero-tb1dip.jpg" alt="">
+                    <img class="brand-img" src="./img/hero-psikn.jpg" alt="">
+                    <img class="brand-img" src="./img/hero-taobao-logo.jpg" alt="">
+                    <img class="brand-img" src="./img/hero-alixblog.jpg" alt="">
+                </div>
             </div>
         </hero>
-        <section>
+        <section class="section">
             <h2>Мы предоставим Вам склад в Китае</h2>
             <div>
                 <div>
@@ -115,13 +138,14 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section class="section">
             <h2>Мы предоставим Вам склад в Китае</h2>
             <video src="">
                 <source src="">
             </video>
             <div>
                 <h3>Оставьте заявку и мы с вами свяжемся</h3>
+                <img src="./img/framing-line-left.jpg" alt="">
                 <form action="">
                     <input type="text" placeholder="Андрей">
                     <input type="text" placeholder="Контактный номер:">
@@ -129,9 +153,10 @@
                     <textarea name="" id="" cols="30" rows="10" placeholder="Комментарий:"></textarea>
                     <button type="submit">ОТПРАВИТЬ</button>
                 </form>
+                <img src="./img/framing-line-right.jpg" alt="">
             </div>
         </section>
-        <section>
+        <section class="section">
             <h2>Мы можем взять все хлопоты по работе с вашим поставщиком на себя:</h2>
             <div>
                 <img src="./img/dotted-globe-icon.jpg" alt="">
@@ -172,7 +197,7 @@
                 <p>Отправим груз по вашему адресу Новой Почтой</p>
             </div>
         </section>
-        <section>
+        <section class="section">
             <h2>Нашли товар на Alibaba, 1688, TaoBao и хотите узнать стоимость доставки?</h2>
             <p>Оставьте ссылку и свой контакт и мы просчитаем стоимость!</p>
             <form action="">
@@ -186,7 +211,7 @@
             <img src="./img/tb-dip.jpg" alt="">
             <img src="./img/taobao-logo.jpg" alt="">
         </section>
-        <section>
+        <section class="section">
             <div>
                 <h2>Может Вам нужно найти какой-то товар в Китае? Мы поможем!</h2>
                 <p>Оставьте ссылку и свой контакт и мы просчитаем стоимость!</p>
@@ -194,7 +219,7 @@
                 <img src="./img/pelette.jpg" alt="">
             </div>
         </section>
-        <section>
+        <section class="section">
             <h2>Нужно забрать товар у Вашего поставщика?</h2>
             <img src="./img/track-mobile.jpg" alt="">
             <form action="">
@@ -206,7 +231,7 @@
                 <button type="submit">Забрать у поставщика</button>
             </form>
         </section>
-        <section>
+        <section class="section">
             <h2>Особенности нашей работы</h2>
             <div>
                 <div>
@@ -230,7 +255,7 @@
             </div>
             <p>Slider descktop</p>
         </section>
-        <section>
+        <section class="section">
             <h2>Отзывы наших клиентов</h2>
             <div>
                 <div>
@@ -244,12 +269,10 @@
                     </video>
                     <h3>Предметы интерьера</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur dipiscing elit. Praesent vitae metus varius, fermentum metus non, gravida dolor. Nullam et lectus ac velit ....</p>
-                    <svg>
-                        <use></use>
-                        <use></use>
-                        <use></use>
-                        <use></use>
-                    </svg>
+                    <svg><use href="./img/symbol-defs.svg#star"></use></svg>
+                    <svg><use href="./img/symbol-defs.svg#star"></use></svg>
+                    <svg><use href="./img/symbol-defs.svg#star"></use></svg>
+                    <svg><use href="./img/symbol-defs.svg#star"></use></svg>
                 </div>
                 <div>
                     <div>
@@ -262,12 +285,10 @@
                     </video>
                     <h3>Предметы интерьера</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur dipiscing elit. Praesent vitae metus varius, fermentum metus non, gravida dolor. Nullam et lectus ac velit ....</p>
-                    <svg>
-                        <use></use>
-                        <use></use>
-                        <use></use>
-                        <use></use>
-                    </svg>
+                    <svg><use href="./img/symbol-defs.svg#star"></use></svg>
+                    <svg><use href="./img/symbol-defs.svg#star"></use></svg>
+                    <svg><use href="./img/symbol-defs.svg#star"></use></svg>
+                    <svg><use href="./img/symbol-defs.svg#star"></use></svg>
                 </div>
                 <div>
                     <div>
@@ -280,17 +301,15 @@
                     </video>
                     <h3>Предметы интерьера</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur dipiscing elit. Praesent vitae metus varius, fermentum metus non, gravida dolor. Nullam et lectus ac velit ....</p>
-                    <svg>
-                        <use></use>
-                        <use></use>
-                        <use></use>
-                        <use></use>
-                    </svg>
+                    <svg><use href="./img/symbol-defs.svg#star"></use></svg>
+                    <svg><use href="./img/symbol-defs.svg#star"></use></svg>
+                    <svg><use href="./img/symbol-defs.svg#star"></use></svg>
+                    <svg><use href="./img/symbol-defs.svg#star"></use></svg>
                 </div>
             </div>
             <div>Slider Desktop</div>
         </section>
-        <section>
+        <section class="section">
             <h2>Выкупили и доставили</h2>
             <div>
                 <div>
@@ -329,7 +348,7 @@
                 <div>Slider Desktop</div>
             </div>
         </section>
-        <section>
+        <section class="section">
             <h2>Каталог популярных товаров которые можно купить у нас</h2>
             <div>
                 <div>
@@ -383,7 +402,7 @@
             </div>
             <button type="button">Смотреть ещё</button>
         </section>
-        <section>
+        <section class="section">
             <p>Задача организации, в особенности же новая модель организационной деятельности позволяет оценить значение</p>
             <p>существенных финансовых и административных условий. Повседневная практика показывает, что новая модель организационной деятельности влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям. Разнообразный и богатый опыт реализация намеченных плановых заданий влечет за собой процесс внедрения</p>
             <p> И модернизации дальнейших направлений развития. Значимость этих проблем настолько очевидна, что постоянный количественный</p>
@@ -391,35 +410,37 @@
             <button type="button">Читать далее</button>
         </section>
     </main>
-    <footer>
+    <footer class="section">
         <div>
             <div>
                 <svg>
-                    <use></use>
+                    <use href="./img/symbol-defs.svg#contact-icon"></use>
                 </svg>
                 <p>Контакты</p>
                 <div>
                     <svg>
-                        <use></use>
+                        <use href="./img/symbol-defs.svg#map-position"></use>
                     </svg>
                     <p>г.Одесса, ул.Военный спуск, 9. Оф. 23</p>
                     <svg>
-                        <use></use>
+                        <use href="./img/symbol-defs.svg#konvert"></use>
                     </svg>
                     <p>smarttrek@gmail.com</p>
                 </div>
                 <div>
                     <svg>
-                        <use></use>
+                        <use href="./img/symbol-defs.svg#footer-phone"></use>
                     </svg>
                     <p>+38 (066)39 38 888</p>
                     <p>+38 (066)39 38 888</p>
                     <p>+38 (066)39 38 888</p>
+                    <svg><use href="./img/symbol-defs.svg#footer-viber"></use></svg>
+                    <svg><use href="./img/symbol-defs.svg#footer-telegram"></use></svg>
                 </div>
             </div>
             <div>
                 <svg>
-                    <use></use>
+                    <use href="./img/symbol-defs.svg#shopping-cart"></use>
                 </svg>
                 <p>О ТОВАРЕ</p>
                 <div>
@@ -433,7 +454,7 @@
             </div>
             <div>
                 <svg>
-                    <use></use>
+                    <use href="./img/symbol-defs.svg#footer-info-icon"></use>
                 </svg>
                 <p>ИНФОРМАЦИЯ</p>
                 <div>
@@ -447,7 +468,7 @@
             </div>
             <div>
                 <svg>
-                    <use></use>
+                    <use href="./img/symbol-defs.svg#shopping-bag"></use>
                 </svg>
                 <p>ЗАКАЗ</p>
                 <div>
