@@ -6,3 +6,21 @@
     border: none;
     background-color: #ffffff;
 }
+
+.hero-submit-button {
+    width: 100%;
+    max-width: 356px;
+    border-radius: 3px;
+    margin-bottom: 11px;
+    background: #FF8A00;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.button-hiden {
+    display: none;
+    pointer-events: none;
+}

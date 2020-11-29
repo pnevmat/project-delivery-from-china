@@ -90,5 +90,17 @@
 <symbol id="magnifying-glass" viewBox="0 0 32 32">
 <path d="M31.805 29.92l-9.296-9.296c1.759-2.15 2.825-4.926 2.825-7.951 0-0.002 0-0.004 0-0.006v0c0-6.986-5.683-12.668-12.668-12.668-6.983 0-12.666 5.683-12.666 12.666 0 6.985 5.683 12.668 12.666 12.668 3.014 0 5.78-1.062 7.956-2.825l9.297 9.295c0.26 0.262 0.682 0.262 0.943 0l0.943-0.941c0.121-0.121 0.195-0.287 0.195-0.471s-0.075-0.351-0.195-0.471v0zM12.666 22.666c-5.52-0.007-9.993-4.48-10-9.999v-0.001c0.007-5.52 4.48-9.993 9.999-10h0.001c5.52 0.007 9.993 4.48 10 9.999v0.001c-0.007 5.52-4.48 9.993-9.999 10h-0.001z"></path>
 </symbol>
+<symbol id="hero-alixblog" viewBox="0 0 72 32">
+<path fill="#ffb800" style="fill: var(--color1, #ffb800)" d="M0.583 0h70.932v30.956h-70.932z"></path>
+</symbol>
+<symbol id="hero-taobao-logo" viewBox="0 0 76 32">
+<path fill="#ffb800" style="fill: var(--color1, #ffb800)" d="M1.587 0h74.016v30.956h-74.016z"></path>
+</symbol>
+<symbol id="hero-psikn" viewBox="0 0 135 32">
+<path fill="#ffb800" style="fill: var(--color1, #ffb800)" d="M0.024 0h133.846v30.956h-133.846z"></path>
+</symbol>
+<symbol id="hero-tb1dip" viewBox="0 0 164 32">
+<path fill="#ffb800" style="fill: var(--color1, #ffb800)" d="M1.242 1.676h161.872v28.672h-161.872z"></path>
+</symbol>
 </defs>
 </svg>

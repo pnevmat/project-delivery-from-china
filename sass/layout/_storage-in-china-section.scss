@@ -1,0 +1,79 @@
+.china-storage-section {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-image: url('../../img/mobile-lines.jpg');
+    background-repeat: no-repeat;
+    background-position: 45% 30%;
+    background-size: 360px 242px;
+}
+
+.china-storage-header {
+    font-size: 17px;
+    margin-bottom: 36px;
+}
+
+.mobile-card-group {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 145px;
+}
+
+.first-card-group {
+    margin-right: 15px;
+}
+
+.first-card {
+    margin-bottom: 16px;
+}
+
+.china-storage-card {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 145px;
+}
+
+.china-storage-img {
+    display: inline-block;
+    width: 100%;
+    max-width: 145px;
+    max-height: 111px;
+}
+
+.china-storage-number {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    max-width: 65px;
+    max-height: 111px;
+    border-radius: 1px 0px 0px 0px;
+    background: rgba(255, 138, 0, 0.78);
+    text-align: center;
+    font-weight: 700;
+    font-size: 92px;
+    line-height: 112px;
+    color: #FFFFFF;
+}
+
+.china-storage-text {
+    text-align: center;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 11px;
+}
+
+.text-decor {
+    color: #FF8A00;
+}
+
+.desktop-card-group {
+    @media screen  and (max-width: 375px) {
+        display: none;
+        pointer-events: none;
+    }
+}
