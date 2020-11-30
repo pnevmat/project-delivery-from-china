@@ -24,3 +24,17 @@
     display: none;
     pointer-events: none;
 }
+
+.customs-clearance-button {
+    width: 100%;
+    max-width: 324px;
+    height: 36px;
+    border: 1px solid #FF8A00;
+    border-radius: 1px;
+    background-color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize;
+    text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.25), 0px 0px 1px #FFFFFF;
+}
