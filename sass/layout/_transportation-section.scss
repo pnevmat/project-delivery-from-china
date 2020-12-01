@@ -1,0 +1,71 @@
+.transportation-section {
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.transportation-title {
+    display: inline-block;
+    width: 100%;
+    max-width: 207px;
+    margin-bottom: 31px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.transportation-img {
+    width: 100%;
+    max-width: 378px;
+}
+
+.transportation-form {
+    display: inline-block;
+    width: 100%;
+    max-width: 337px;
+    padding-top: 12px;
+    padding-right: 5px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+}
+
+.transportation-input {
+    width: 100%;
+    max-width: 324px;
+    height: 33px;
+    border: 1px solid  #F3F5F6;
+    border-radius: 1px;
+    margin-bottom: 19px;
+    background: #F3F5F6;
+    box-shadow: 3px 3px 7px rgba(76, 82, 91, 0.12),
+        -3px -3px 10px #FFFFFF,
+        inset 1px 1px 1px rgba(247, 247, 247, 0.5);
+    &::placeholder {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #8B8B8B;
+    }
+}
+
+.transportation-textarea {
+    width: 100%;
+    max-width: 324px;
+    height: 64px;
+    border: 1px solid  #F3F5F6;
+    border-radius: 1px;
+    margin-bottom: 5px;
+    background: #F3F5F6;
+    box-shadow: 3px 3px 7px rgba(76, 82, 91, 0.12),
+        -3px -3px 10px #FFFFFF,
+        inset 1px 1px 1px rgba(247, 247, 247, 0.5);
+    &::placeholder {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #8B8B8B;
+    }
+}
+
