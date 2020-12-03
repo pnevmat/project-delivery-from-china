@@ -1,0 +1,117 @@
+.clients-reviews-section {
+    padding-top: 8px;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.clients-reviews-section-title {
+    display: inline-block;
+    width: 100%;
+    max-width: 217px;
+    margin-bottom: 31px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.clients-reviews-container {
+    background-image: url('../../img/reviews-card-bg-img-left.jpg'),
+        url('../../img/reviews-card-bg-img-right.jpg');
+    background-repeat: no-repeat;
+    background-size: 158px 209px, 158px 209px;
+    background-position: center left, center right;
+    text-align: center;
+}
+
+.clients-reviews-card-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 223px;
+    border-radius: 2px;
+    background: #ffffff;
+    box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.21);
+}
+
+.clients-reviews-card-video {
+    width: 100%;
+    max-width: 223px;
+}
+
+.clients-reviews-avatar-container {
+    position: absolute;
+    top: 31%;
+    right: 85%;
+    display: inline-block;
+    width: 100%;
+    max-width: 48px;
+    height: 48px;
+    border: 4px solid #FF8A00;
+    border-radius: 50%;
+}
+
+.clients-reviews-avatar {
+    width: 100%;
+    max-width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.clients-reviewer-container {
+    width: 100%;
+    padding-left: 32px;
+    margin-bottom: 4px;
+    text-align: left;
+}
+
+.clients-reviewer-name {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: capitalize;
+}
+
+.clients-reviewer-city {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: lowercase;
+}
+
+.review-card-container {
+    padding-right: 15px;
+    padding-bottom: 18px;
+    padding-left: 8px;
+    text-align: left;
+
+}
+
+.clients-reviews-card-title {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: capitalize;
+}
+
+.clients-reviews-card-text {
+    margin-bottom: 18px;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 14px;
+    text-transform: capitalize;
+}
+
+.clients-reviews-card-star {
+    width: 100%;
+    max-width: 12px;
+    max-height: 12px;
+}
+
+.clients-reviews-slider {
+    display: none;
+    pointer-events: none;
+}
