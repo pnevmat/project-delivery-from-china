@@ -349,6 +349,22 @@ template {
   src: local("Gilroy SemiBold"), local("Gilroy-SemiBold"), url("../../fonts/Gilroy-SemiBold.eot?#iefix") format("embedded-opentype"), url("../../fonts/Gilroy-SemiBold.woff") format("woff"), url("../../fonts/Gilroy-SemiBold.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: 'Roboto';
+  font-style: Condensed;
+  font-weight: 300;
+  src: url("../../fonts/RobotoCondensed-Light.ttf");
+  src: local("Roboto Light"), local("Roboto Light"), url("../../fonts/RobotoCondensed-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: Condensed;
+  font-weight: 400;
+  src: url("../../fonts/RobotoCondensed-Regular.ttf");
+  src: local("Roboto Regular"), local("Roboto Regular"), url("../../fonts/RobotoCondensed-Regular.ttf") format("truetype");
+}
+
 *,
 *::before,
 *::after {
@@ -542,6 +558,22 @@ ul {
   text-align: center;
   color: #FFFFFF;
   text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.5);
+}
+
+.call-back-button {
+  width: 100%;
+  max-width: 145px;
+  height: 40px;
+  padding: 10px 9px;
+  border: none;
+  border-radius: 3px;
+  background: #45B84A;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 12.7706px rgba(255, 255, 255, 0.5);
 }
 
 .header-section {
@@ -1781,10 +1813,9 @@ ul {
 .footer-contacts-container {
   display: inline-block;
   width: 100%;
-  max-width: 317px;
+  max-width: 325px;
+  margin-bottom: 24px;
   border-left: 1px solid #000000;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
 }
 
 .footer-contacts-logo {
@@ -1793,10 +1824,15 @@ ul {
 }
 
 .footer-contacts-word {
+  display: inline-block;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   text-transform: uppercase;
+}
+
+.adress-container {
+  margin-bottom: 14px;
 }
 
 .footer-contacts-adress-logo {
@@ -1805,6 +1841,10 @@ ul {
 }
 
 .footer-contacts-adress {
+  display: inline-block;
+  width: 100%;
+  max-width: 109px;
+  margin-right: 34px;
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
@@ -1816,9 +1856,15 @@ ul {
 }
 
 .footer-contacts-email {
+  display: inline-block;
+  font-family: Roboto;
   font-weight: 300;
   font-size: 12px;
   line-height: 14px;
+}
+
+.phone-social-links-container {
+  padding-left: 6px;
 }
 
 .footer-contacts-phone-logo {
@@ -1826,15 +1872,119 @@ ul {
   height: 20px;
 }
 
+.phone-nombers-container {
+  display: inline-block;
+  width: 100%;
+  max-width: 153px;
+  margin-bottom: 20px;
+}
+
 .footer-contacts-phone {
+  display: inline-block;
+  width: 100%;
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
+}
+
+.social-links-container {
+  max-height: 29px;
+  padding-left: 4px;
 }
 
 .footer-contacts-viber-logo,
 .footer-contacts-telegram-logo {
   width: 29px;
   height: 29px;
+}
+
+.about-product-container {
+  display: inline-block;
+  width: 100%;
+  max-width: 151px;
+  margin-right: 28px;
+  margin-bottom: 20px;
+}
+
+.shopping-cart-logo {
+  width: 21px;
+  height: 21px;
+}
+
+.links-container {
+  padding-top: 16px;
+  padding-left: 28px;
+  border-left: 1px solid #000000;
+  font-size: 10px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.links-container :not(:last-child) {
+  margin-bottom: 4px;
+}
+
+.about-product-link,
+.information-link,
+.order-link {
+  display: block;
+  color: #000000;
+}
+
+.information-container {
+  display: inline-block;
+  width: 100%;
+  max-width: 141px;
+  margin-bottom: 20px;
+}
+
+.information-logo {
+  width: 21px;
+  height: 21px;
+}
+
+.order-container {
+  display: inline-block;
+  width: 100%;
+  max-width: 141px;
+  margin-right: 34px;
+  margin-bottom: 37px;
+}
+
+.order-logo {
+  width: 21px;
+  height: 21px;
+}
+
+.call-back-container {
+  display: inline-block;
+  width: 100%;
+  max-width: 145px;
+  text-align: center;
+}
+
+.visa-img {
+  display: inline-block;
+  width: 100%;
+  max-width: 116px;
+}
+
+.footer-logo {
+  display: inline-block;
+  width: 100%;
+  max-width: 156px;
+  margin-bottom: 6px;
+}
+
+.footer-bottom-container {
+  width: 100%;
+  text-align: center;
+}
+
+.footer-rights {
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #B4B4B4;
 }
 /*# sourceMappingURL=main.css.map */
