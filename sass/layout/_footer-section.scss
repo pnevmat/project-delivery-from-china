@@ -3,16 +3,31 @@
     padding-right: 22px;
     padding-bottom: 7px;
     padding-left: 28px;
+    @media screen and (max-width: 374px) {
+        text-align: center;
+    }
 }
 
-// .footer-container {
-
-// }
+@media screen and (max-width: 374px) {
+    .footer-container {
+        display: inline-block;
+        width: 100%;
+        max-width: 182px;
+    }
+}
 
 .footer-contacts-container {
     display: inline-block;
     width: 100%;
-    max-width: 325px;
+    @media screen and (max-width: 230px) {
+        max-width: 140px;
+    }
+    @media screen and (min-width: 231px) and (max-width: 374px) {
+        max-width: 181px;
+    }
+    @media screen and (min-width: 375px) {
+        max-width: 325px;
+    }
     margin-bottom: 24px;
     border-left: 1px solid #000000;
     // transform: rotate(90deg);
@@ -43,16 +58,27 @@
 .footer-contacts-adress {
     display: inline-block;
     width: 100%;
-    max-width: 109px;
-    margin-right: 34px;
+    @media screen and (max-width: 374px) {
+        max-width: 130px;
+    }
+    @media screen and (min-width: 375px) {
+        max-width: 109px;
+        margin-right: 34px;
+    }
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
 }
 
 .footer-contacts-email-logo {
-    width: 19px;
-    height: 19px;
+    @media screen and (max-width: 374px) {
+        width: 21px;
+        height: 21px;
+    }
+    @media screen and (min-width: 375px) {
+        width: 19px;
+        height: 19px;
+    }
 }
 
 .footer-contacts-email {
@@ -64,7 +90,12 @@
 }
 
 .phone-social-links-container {
-    padding-left: 6px;
+    @media screen and (min-width: 231px) and (max-width: 374px) {
+        padding-left: 15px;
+    }
+    @media screen and (min-width: 375px) {
+        padding-left: 6px;
+    }
 }
 
 .footer-contacts-phone-logo {
@@ -75,7 +106,12 @@
 .phone-nombers-container {
     display: inline-block;
     width: 100%;
-    max-width: 153px;
+    @media screen and (max-width: 374px) {
+        max-width: 140px;
+    }
+    @media screen and (min-width: 375px) {
+        max-width: 153px;
+    }
     margin-bottom: 20px;
 }
 
@@ -89,7 +125,9 @@
 
 .social-links-container {
     max-height: 29px;
-    padding-left: 4px;
+    @media screen and (min-width: 375px) {
+        padding-left: 4px;
+    }
 }
 
 .footer-contacts-viber-logo,
@@ -101,8 +139,18 @@
 .about-product-container {
     display: inline-block;
     width: 100%;
-    max-width: 151px;
-    margin-right: 28px;
+    @media screen and (max-width: 230px) {
+        max-width: 140px;
+    }
+    @media screen and (min-width: 231px) and (max-width: 374px) {
+        max-width: 181px;
+    }
+    @media screen and (min-width: 375px) {
+        max-width: 151px;
+    }
+    @media screen and (min-width: 375px) {
+        margin-right: 28px;
+    }
     margin-bottom: 20px;
 }
 
@@ -133,7 +181,15 @@
 .information-container {
     display: inline-block;
     width: 100%;
-    max-width: 141px;
+    @media screen and (max-width: 230px) {
+        max-width: 140px;
+    }
+    @media screen and (min-width: 231px) and (max-width: 374px) {
+        max-width: 181px;
+    }
+    @media screen and (min-width: 375px) {
+        max-width: 141px;
+    }
     margin-bottom: 20px;
 }
 
@@ -145,9 +201,20 @@
 .order-container {
     display: inline-block;
     width: 100%;
-    max-width: 141px;
-    margin-right: 34px;
-    margin-bottom: 37px;
+    @media screen and (max-width: 230px) {
+        max-width: 140px;
+    }
+    @media screen and (min-width: 231px) and (max-width: 374px) {
+        max-width: 181px;
+    }
+    @media screen and (max-width: 374px) {
+        margin-bottom: 20px;
+    }
+    @media screen and (min-width: 375px) {
+        max-width: 141px;
+        margin-right: 34px;
+        margin-bottom: 37px;
+    }
 }
 
 .order-logo {
@@ -159,6 +226,7 @@
     display: inline-block;
     width: 100%;
     max-width: 145px;
+    margin-bottom: 37px;
     text-align: center;
 }
 

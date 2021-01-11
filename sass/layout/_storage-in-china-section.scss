@@ -5,8 +5,46 @@
     text-align: center;
     background-image: url('../../img/mobile-lines.jpg');
     background-repeat: no-repeat;
-    background-position: 45% 30%;
-    background-size: 360px 242px;
+    @media screen and (max-width: 140px) {
+        background-position: 49% 55%;
+        background-size: 110px 430px;
+    }
+    @media screen and (min-width: 141px) and (max-width: 150px) {
+        background-position: 49% 55%;
+        background-size: 130px 440px;
+    }
+    @media screen and (min-width: 151px) and (max-width: 160px) {
+        background-position: 49% 55%;
+        background-size: 150px 460px;
+    }
+    @media screen and (min-width: 161px) and (max-width: 170px) {
+        background-position: 49% 55%;
+        background-size: 150px 480px;
+    }
+    @media screen and (min-width: 171px) and (max-width: 190px) {
+        background-position: 49% 55%;
+        background-size: 160px 520px;
+    }
+    @media screen and (min-width: 191px) and (max-width: 349px) {
+        background-position: 49% 45%;
+        background-size: 170px 525px;
+    }
+    @media screen and (min-width: 350px) and (max-width: 362px) {
+        background-position: 45% 40%;
+        background-size: 340px 222px;
+    }
+    @media screen and (min-width: 363px) and (max-width: 375px) {
+        background-position: 45% 30%;
+        background-size: 360px 242px;
+    }
+}
+
+.china-storage-container {
+    display: inline-block;
+    width: 100%;
+    @media screen and (max-width: 349px) {
+        max-width: 290px;
+    }
 }
 
 .china-storage-header {
@@ -22,7 +60,9 @@
 }
 
 .first-card-group {
-    margin-right: 15px;
+    @media screen and (min-width: 363px) and (max-width: 375px) {
+        margin-right: 15px;
+    }
 }
 
 .first-card {
@@ -51,12 +91,29 @@
     width: 100%;
     max-width: 65px;
     max-height: 111px;
-    border-radius: 1px 0px 0px 0px;
+    border-radius: 1px;
     background: rgba(255, 138, 0, 0.78);
     text-align: center;
     font-weight: 700;
     font-size: 92px;
-    line-height: 112px;
+    @media screen and (max-width: 140px) {
+        line-height: 78px;
+    }
+    @media screen and (min-width: 141px) and (max-width: 150px) {
+        line-height: 85px;
+    }
+    @media screen and (min-width: 151px) and (max-width: 160px) {
+        line-height: 93px;
+    }
+    @media screen and (min-width: 161px) and (max-width: 170px) {
+        line-height: 100px;
+    }
+    @media screen and (min-width: 171px) and (max-width: 180px) {
+        line-height: 108px;
+    }
+    @media screen and (min-width: 181px) {
+        line-height: 112px;
+    }
     color: #FFFFFF;
 }
 

@@ -35,18 +35,28 @@
 }
 
 .background-text-container {
-    display: flex;
-    justify-content: space-between;
     margin-bottom: 6px;
+    @media screen and (max-width: 329px) {
+        text-align: center;
+    }
+    @media screen and (min-width: 330px) and (max-width: 375px) {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 .work-features-background-text {
-    display: inline-block;
-    width: 100%;
-    max-width: 69px;
-    font-weight: 500;
-    font-size: 7px;
-    line-height: 9px;
+    @media screen and (max-width: 329px) {
+        display: none;
+    }
+    @media screen and (min-width: 330px) and (max-width: 375px) {
+        display: inline-block;
+        width: 100%;
+        max-width: 69px;
+        font-weight: 500;
+        font-size: 7px;
+        line-height: 9px;
+    }
 }
 
 .to-left {
@@ -59,12 +69,14 @@
 
 .work-features-background-img {
     width: 100%;
-    background-image: url('../../img/work-features-background1.jpg'),
+    @media screen and (min-width: 330px) and (max-width: 375px) {
+        background-image: url('../../img/work-features-background1.jpg'),
         url('../../img/work-features-background2.jpg');
-    background-repeat: no-repeat;
-    background-size: 130px 100px, 200px 100px;
-    background-position: center left, center right;
-    border-radius: 1px;
+        background-repeat: no-repeat;
+        background-size: 130px 100px, 200px 100px;
+        background-position: center left, center right;
+        border-radius: 1px;
+    }
 }
 
 .work-features-slider {

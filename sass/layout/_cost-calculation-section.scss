@@ -7,9 +7,29 @@
 }
 
 .cost-calculation-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    @media screen and (max-width: 349px) {
+        display: inline-block;
+    }
+    @media screen and (max-width: 190px) {
+        max-width: 150px;
+        & :not(:last-child) {
+            margin-bottom: 7px;
+        }
+    }
+    @media screen and (min-width: 191px) and (max-width: 349px) {
+        max-width: 230px;
+        & :nth-child(2n + 1) {
+            margin-right: 7px;
+        }
+        & :nth-child(-n + 2) {
+            margin-bottom: 7px;
+        }
+    }
+    @media screen and (min-width: 350px) and (max-width: 375px) {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
 }
 
 .cost-calculation-title {
@@ -61,24 +81,28 @@
 
 .cost-calculation-alixblog-img {
     display: inline-block;
+    width: 100%;
     max-width: 73px;
     max-height: 32px;
 }
 
 .cost-calculation-psikn-img {
     display: inline-block;
+    width: 100%;
     max-width: 88px;
     max-height: 20px;
 }
 
 .cost-calculation-tb1dip-img {
     display: inline-block;
+    width: 100%;
     max-width: 79px;
     max-height: 14px;
 }
 
 .cost-calculation-taobao-logo-img {
     display: inline-block;
+    width: 100%;
     max-width: 76px;
     max-height: 32px;
 }

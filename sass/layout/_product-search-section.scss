@@ -2,17 +2,26 @@
     padding-right: 11px;
     padding-left: 11px;
     margin-bottom: 30px;
+    @media screen and (max-width: 374px) {
+        text-align: center;
+    }
 }
 
 .product-search-container {
     display: inline-block;
     width: 100%;
-    max-width: 216px;
-    margin-right: 16px;
-    text-align: left;
-    background-image: url('../../img/decor-line.jpg');
-    background-repeat: no-repeat;
-    background-position: 100% 70% ;
+    max-width: 235px;
+    @media screen and (max-width: 375px) {
+        margin-bottom: 30px;
+    }
+    @media screen and (min-width: 375px) {
+        max-width: 216px;
+        margin-right: 16px;
+        text-align: left;
+        background-image: url('../../img/decor-line.jpg');
+        background-repeat: no-repeat;
+        background-position: 100% 70% ;
+    }
 }
 
 .product-search-title {

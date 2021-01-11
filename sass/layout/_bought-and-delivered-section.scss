@@ -15,11 +15,13 @@
 }
 
 .bought-and-delivered-container {
-    background-image: url('../../img/bought-and-delivered-left-bg-img.jpg'),
+    @media screen and (min-width: 255px) and (max-width: 375px) {
+        background-image: url('../../img/bought-and-delivered-left-bg-img.jpg'),
         url('../../img/bought-and-delivered-right-bg-img.jpg');
-    background-repeat: no-repeat;
-    background-size: 158px 209px, 158px 209px;
-    background-position: center left, center right;
+        background-repeat: no-repeat;
+        background-size: 158px 209px, 158px 209px;
+        background-position: center left, center right;
+    }
     text-align: center;
 }
 
@@ -36,12 +38,20 @@
 .bought-and-delivered-card-img {
     width: 100%;
     max-width: 223px;
+    @media screen and (max-width: 254px) {
+        margin-bottom: 5px;
+    }
 }
 
 .bought-and-delivered-avatar-container {
-    position: absolute;
-    top: 23%;
-    right: 85%;
+    @media screen and (min-width: 255px) and (max-width: 375px) {
+        position: absolute;
+        top: 23%;
+        right: 85%;
+    }
+    @media screen and (max-width: 254px) {
+        margin-right: 5px;
+    }
     display: inline-block;
     width: 100%;
     max-width: 48px;
@@ -58,10 +68,21 @@
 }
 
 .bought-and-delivered-reviewer-container {
+    @media screen and (max-width: 254px) {
+        display: inline-block;
+        max-width: 165px;
+    }
     width: 100%;
-    padding-left: 28px;
+    @media screen and (min-width: 255px) and (max-width: 375px) {
+        padding-left: 28px;
+    }
     margin-bottom: 15px;
-    text-align: left;
+    @media screen and (max-width: 222px) {
+        text-align: center;
+    }
+    @media screen and (min-width: 223px) {
+        text-align: left;
+    }
 }
 
 .bought-and-delivered-reviewer-name {

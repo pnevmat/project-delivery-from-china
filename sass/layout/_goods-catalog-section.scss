@@ -5,10 +5,20 @@
 }
 
 .goods-catalog-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    @media screen and (min-width: 366px) and (max-width: 375px) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        & :nth-child(-n + 2) {
+            margin-bottom: 10px;
+        }
+    }
+    @media screen and (max-width: 365px) {
+        & :not(:last-child) {
+            margin-bottom: 10px;
+        }
+    }
     padding-top: 17px;
     padding-right: 11px;
     padding-bottom: 20px;
@@ -33,9 +43,6 @@
     padding-bottom: 5px;
     padding-left: 15px;
     box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.08);
-    &:nth-child(-n + 2) {
-        margin-bottom: 10px;
-    }
 }
 
 .goods-catalog-card-img {
