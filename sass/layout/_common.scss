@@ -42,11 +42,16 @@ ul {
 
 .section {
   width: 100%;
-  @media screen and (max-width: 375px) {
-    max-width: 375px;
-  }
+  max-width: 375px;
   padding-right: 24px;
   padding-left: 24px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hero-section {
+  width: 100%;
+  max-width: 375px;
   margin-right: auto;
   margin-left: auto;
 }

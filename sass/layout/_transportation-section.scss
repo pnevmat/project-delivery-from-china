@@ -11,7 +11,12 @@
     max-width: 207px;
     margin-bottom: 31px;
     font-weight: 600;
-    font-size: 17px;
+    @media screen and (max-width: 130px) {
+        font-size: 12px;
+    }
+    @media screen and (min-width: 131px) {
+        font-size: 17px;
+    }
     line-height: 20px;
     text-align: center;
 }

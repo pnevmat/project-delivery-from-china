@@ -13,12 +13,17 @@
     max-width: 217px;
     margin-bottom: 31px;
     font-weight: 600;
-    font-size: 17px;
+    @media screen and (max-width: 130px) {
+        font-size: 12px;
+    }
+    @media screen and (min-width: 131px) {
+        font-size: 17px;
+    }
     line-height: 20px;
 }
 
 .clients-reviews-container {
-    @media screen and (min-width: 255px) and (max-width: 375px) {
+    @media screen and (min-width: 255px) {
         background-image: url('../../img/reviews-card-bg-img-left.jpg'),
         url('../../img/reviews-card-bg-img-right.jpg');
         background-repeat: no-repeat;
@@ -49,7 +54,7 @@
 }
 
 .clients-reviews-avatar-container {
-    @media screen and (min-width: 255px) and (max-width: 375px) {
+    @media screen and (min-width: 255px) {
         position: absolute;
         top: 31%;
         right: 85%;
@@ -78,7 +83,7 @@
         max-width: 165px;
     }
     width: 100%;
-    @media screen and (min-width: 255px) and (max-width: 375px) {
+    @media screen and (min-width: 255px) {
         padding-left: 32px;
     }
     margin-bottom: 4px;
@@ -115,7 +120,12 @@
 .clients-reviews-card-title {
     margin-bottom: 8px;
     font-weight: 500;
-    font-size: 18px;
+    @media screen and (max-width: 120px) {
+        font-size: 12px;
+    }
+    @media screen and (min-width: 121px) {
+        font-size: 18px;
+    }
     line-height: 18px;
     text-transform: capitalize;
 }

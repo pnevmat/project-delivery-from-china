@@ -35,7 +35,12 @@
     max-width: 210px;
     margin-bottom: 24px;
     font-weight: 600;
-    font-size: 20px;
+    @media screen and (max-width: 130px) {
+        font-size: 12px;
+    }
+    @media screen and (min-width: 131px) {
+        font-size: 20px;
+    }
     line-height: 25px;
 }
 

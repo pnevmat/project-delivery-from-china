@@ -10,12 +10,17 @@
     max-width: 200px;
     margin-bottom: 31px;
     font-weight: 600;
-    font-size: 17px;
+    @media screen and (max-width: 130px) {
+        font-size: 12px;
+    }
+    @media screen and (min-width: 131px) {
+        font-size: 17px;
+    }
     line-height: 20px;
 }
 
 .bought-and-delivered-container {
-    @media screen and (min-width: 255px) and (max-width: 375px) {
+    @media screen and (min-width: 255px) {
         background-image: url('../../img/bought-and-delivered-left-bg-img.jpg'),
         url('../../img/bought-and-delivered-right-bg-img.jpg');
         background-repeat: no-repeat;
@@ -44,7 +49,7 @@
 }
 
 .bought-and-delivered-avatar-container {
-    @media screen and (min-width: 255px) and (max-width: 375px) {
+    @media screen and (min-width: 255px) {
         position: absolute;
         top: 23%;
         right: 85%;
@@ -73,7 +78,7 @@
         max-width: 165px;
     }
     width: 100%;
-    @media screen and (min-width: 255px) and (max-width: 375px) {
+    @media screen and (min-width: 255px) {
         padding-left: 28px;
     }
     margin-bottom: 15px;
@@ -110,7 +115,12 @@
 .bought-and-delivered-reviews-card-title {
     margin-bottom: 8px;
     font-weight: 500;
-    font-size: 17px;
+    @media screen and (max-width: 120px) {
+        font-size: 12px;
+    }
+    @media screen and (min-width: 121px) {
+        font-size: 17px;
+    }
     line-height: 16px;
     text-transform: capitalize;
 }

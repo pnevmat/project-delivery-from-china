@@ -5,20 +5,29 @@
 }
 
 .mobile-header-container {
+    @media screen and (max-width: 150px) {
+        display: inline-block;
+        & :not(:last-child) {
+            margin-bottom: 10px;
+        }
+        text-align: center;
+    }
+    @media screen and (min-width: 151px) and (max-width: 345px) {
         display: flex;
         align-items: center;
-    @media screen and (max-width: 345px) {
         & :not(:last-child) {
             margin-right: 5px;
         }
     }
-    @media screen and (min-width: 346px) and (max-width: 375px) {
+    @media screen and (min-width: 346px) {
+        display: flex;
+        align-items: center;
         justify-content: space-between;
     }
 }
 
 .descktop-header-container {
-    @media screen and (max-width: 375px) {
+    @media screen and (max-width: 7000px) {
         display: none;
         pointer-events: none;
     }

@@ -6,7 +6,12 @@
 
 .work-with-providers-title {
     font-weight: 600;
-    font-size: 17px;
+    @media screen and (max-width: 139px) {
+        font-size: 12px;
+    }
+    @media screen and (min-width: 140px) {
+        font-size: 17px;
+    }
     line-height: 20px;
     text-align: center;
 }
@@ -42,7 +47,7 @@
     @media screen and (max-width: 362px) {
         display: none;
     }
-    @media screen and (min-width: 363px) and (max-width: 375px) {
+    @media screen and (min-width: 363px) {
         display: inline-block;
         width: 100%;
         max-width: 48px;
@@ -57,7 +62,7 @@
     @media screen and (max-width: 362px) {
         display: none;
     }
-    @media screen and (min-width: 363px) and (max-width: 375px) {
+    @media screen and (min-width: 363px) {
         display: inline-block;
         width: 100%;
         max-width: 4px;
@@ -65,7 +70,7 @@
 }
 
 .long-line-img {
-    @media screen and (min-width: 363px) and (max-width: 375px) {
+    @media screen and (min-width: 363px) {
         display: inline-block;
     }
 }
@@ -86,7 +91,7 @@
     @media screen and (max-width: 362px) {
         display: none;
     }
-    @media screen and (min-width: 363px) and (max-width: 375px) {
+    @media screen and (min-width: 363px) {
         display: inline-block;
         width: 100%;
         max-width: 48px;
