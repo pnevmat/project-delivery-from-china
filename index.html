@@ -18,7 +18,7 @@
                 </svg>
                 <input class="mobile-input" type="text" placeholder="Трекинг"></input>
             </form>
-            <button class="menu-button" type="button">
+            <button class="menu-button" type="button" mobile-modal-open>
                 <svg class="menu-icon"><use href="./img/symbol-defs.svg#mobile-menu"></use></svg>
             </button>
         </div>
@@ -469,9 +469,67 @@
                 <p class="footer-rights">©2020 все права защищены</p>
             </li>
         </ul>
-        <div></div>
-        <div></div>
-        <div></div>
     </footer>
+    <div class="mobile-backdrop is-hidden" mobile-modal>
+        <div class="mobile-modal">
+            <div class="mobile-modal-header">
+                <img class="modal-logo" src="./img/modal-logo.jpg" alt="">
+                <button class="modal-close-button" type="button" mobile-modal-close>
+                    <svg class="modal-close-icon"><use href="./img/symbol-defs.svg#close-modal"></use></svg>
+                </button>
+            </div>
+            <ul class="options-list">
+                <li class="options-item main">
+                    <p class="options-text">Главная</p>
+                </li>
+                <li class="options-item">
+                    <p class="options-text">Услуги</p>
+                    <svg class="arrow-right-icon"><use href="./img/symbol-defs.svg#arrow-right"></use></svg>
+                </li>
+                <li class="options-item">
+                    <p class="options-text">Каталог</p>
+                    <svg class="arrow-right-icon"><use href="./img/symbol-defs.svg#arrow-right"></use></svg>
+                </li>
+                <li class="options-item">
+                    <p class="options-text">О компании</p>
+                    <svg class="arrow-right-icon"><use href="./img/symbol-defs.svg#arrow-right"></use></svg>
+                </li>
+                <li class="options-item">
+                    <p class="options-text">Контакты</p>
+                </li>
+            </ul>
+            <ul class="contact-list">
+                <li class="contact-item">
+                    <svg class="modal-phone-icon"><use href="./img/symbol-defs.svg#modal-phone"></use></svg>
+                    <p class="contact-text">+38 (066)39 38 888</p>
+                </li>
+                <li class="contact-item">
+                    <svg class="modal-phone-icon"><use href="./img/symbol-defs.svg#modal-phone"></use></svg>
+                    <p class="contact-text">+38 (066)39 38 888</p></li>
+                <li class="contact-item">
+                    <svg class="modal-phone-icon"><use href="./img/symbol-defs.svg#modal-phone"></use></svg>
+                    <p class="contact-text">+38 (066)39 38 888</p>
+                </li>
+                <li class="contact-item sosial-link">
+                    <svg class="footer-contacts-viber-logo"><use href="./img/symbol-defs.svg#footer-viber"></use></svg>
+                </li>
+                <li class="contact-item sosial-link">
+                    <svg class="footer-contacts-telegram-logo"><use href="./img/symbol-defs.svg#footer-telegram"></use></svg>
+                </li>
+            </ul>
+            <ul class="product-links-list">
+                <li class="product-links-item">
+                    <a class="modal-link" href="#">Рассчитать стоимость</a>
+                </li>
+                <li class="product-links-item">
+                    <a class="modal-link" href="#">Личный кабинет</a>
+                </li>
+                <li class="product-links-item">
+                    <a class="modal-link" href="#">Заказать обратный звонок</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="./js/mobile-modal-handler.js" type="module"></script>
 </body>
 </html>
